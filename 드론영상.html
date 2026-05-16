@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>드론영상</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f5fff7;
+}
+
+/* 메뉴 */
+nav{
+background:#1f9d55;
+padding:18px;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+gap:35px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#d6ffe6;
+}
+
+/* 콘텐츠 */
+.container{
+padding:80px 10%;
+text-align:center;
+}
+
+h1{
+font-size:60px;
+color:#1f9d55;
+margin-bottom:40px;
+}
+
+.video-box{
+background:white;
+padding:30px;
+border-radius:25px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.video-frame{
+position:relative;
+width:100%;
+padding-bottom:56.25%;
+height:0;
+overflow:hidden;
+border-radius:20px;
+}
+
+.video-frame iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+border:none;
+}
+
+p{
+margin-top:20px;
+font-size:22px;
+line-height:1.7;
+color:#333;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="index.html">홈</a></li>
+<li><a href="드론영상.html">드론영상</a></li>
+<li><a href="드론사진.html">드론사진</a></li>
+<li><a href="드론게임.html">드론게임</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<h1>DRONE VIDEO</h1>
+
+<div class="video-box">
+
+<div class="video-frame">
+
+<!-- 유튜브 영상 링크 -->
+<iframe 
+src="https://www.youtube.com/embed/vdQ2K_Yzz7M?si=Zg-MRumGGgk-aSji"
+title="YouTube video player"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+
+</div>
+
+<p>
+드론으로 촬영한 시네마틱 영상입니다.<br>
+하늘 위의 특별한 풍경을 감상해보세요.
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
